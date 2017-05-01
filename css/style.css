@@ -1,0 +1,125 @@
+.alineado{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.Borde{
+	border: 1px solid #000;
+
+}
+.buttonColor{
+	background:#00695c;
+}
+.BackgroundImage{
+	background-image: url('../public/img/background.jpg');
+}
+.CuadroBlanco{
+	background-color: white;
+}
+.center-block{
+	width: 250px;
+}
+.ColorTextMenu{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 15px; /*este modifica un poco el fonde el NavBar*/
+}
+.Centrar{
+	text-align: center;
+}
+.ColorBlanco{
+	color: white;
+}
+.ColorAncla{
+	color: #90a4ae;
+}
+.CenterAlign{
+	text-align: center;
+}
+.dropdown-menu{
+	margin-right: 100px;
+}
+.EspacioNav{
+	margin-top: 10px;
+}
+.EspacioLogo{
+	margin-top: 50px;
+}
+.Espacio{
+	margin-top: 30px;
+}
+.Fondo{
+	background-color:red;
+}
+.MargenDerMenu{
+	margin-right: 60px;
+}
+.MargenArribaMenu{
+	margin-top: 5px;
+}
+.MargenArribaNav{
+	margin-top: 80px;
+}
+.MargenCustom1{
+	margin-top: 50px;
+}
+.Portfolio{
+	margin-top: 50px;
+}
+.navcolor{
+	background-color: #00695c;
+	border: 1px solid #00695c;
+	box-shadow: 1px 10px 100px #000;
+}
+.Paralax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1px 1px 1px 1px;
+}
+.Satisfy{
+	font-family:'Satisfy';
+	font-size: 40px;
+}
+#LogoImage,#Menu{
+	display: inline-block;
+}
+a{
+	font-size: 1.4em;
+	color: white;
+}
+a:hover{
+	color: white;
+}
+a:link{
+	text-decoration: none;
+}
+body,html{
+	height: 100%;
+}
+hr{
+	border-top: 3px solid black; 
+	border-bottom: 3px dotted black; 
+	border-left:none; 
+	border-right:none; 
+	height: 3px;
+	width: 50px 
+}
+/* #LogoSkaterCo img{
+	width: 50px;
+} */
+#Portfolio img:hover{
+	filter: sepia(100%);
+	opacity: .6;
+	transform: scale(0.99);
+}
+label{
+	font-size: 50px;
+	font-family: 'Satisfy';
+}
+p{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+}
+
