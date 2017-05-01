@@ -1,0 +1,16 @@
+.pull-right{
+	margin-right: 30px;
+	margin-top: 60px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color:black;
+}
+footer{
+	margin-bottom:100px;
+}
+footer p{
+	font-size: 15px;
+}
