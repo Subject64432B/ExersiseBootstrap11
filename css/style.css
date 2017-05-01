@@ -2,10 +2,15 @@
 	display: inline-block;
 	vertical-align: bottom;
 }
-
 .Borde{
 	border: 1px solid #000;
-
+	border-radius: 5px;
+}
+.BordeChido{
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .buttonColor{
 	background:#00695c;
@@ -16,13 +21,30 @@
 .CuadroBlanco{
 	background-color: white;
 }
+.CuadroFondoAcercaDe{
+	background-color: #00bfa5;
+	color: white;
+
+}
+.CuadroFondoUbicacion{
+	background-color:#546e7a ;
+	color: white;
+
+}
 .center-block{
-	width: 250px;
+	width: 225px;
 }
 .ColorTextMenu{
 	color: white;
 	font-size: 25px;
 	margin-bottom: 15px; /*este modifica un poco el fonde el NavBar*/
+}
+.CirculoRedes{
+	padding:8px;
+	border: 1px solid #000;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
 }
 .Centrar{
 	text-align: center;
@@ -47,6 +69,15 @@
 }
 .Espacio{
 	margin-top: 30px;
+}
+.EspacioAbajo , .EspacioAbajoAcercade{
+	margin-bottom: 50px;
+}
+.EspacioArribaAcercade{
+	margin-top: 50px;
+}
+.EspacioizqContactame{
+	margin-left: 25px;
 }
 .Fondo{
 	background-color:red;
@@ -85,8 +116,15 @@
 #LogoImage,#Menu{
 	display: inline-block;
 }
+#TextoAcercade{
+	font-size: 20px;	
+}
+#EspacioAbajoRedes{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 a{
-	font-size: 1.4em;
+	font-size: 20px;
 	color: white;
 }
 a:hover{
@@ -104,11 +142,8 @@ hr{
 	border-left:none; 
 	border-right:none; 
 	height: 3px;
-	width: 50px 
+	width: 90px;
 }
-/* #LogoSkaterCo img{
-	width: 50px;
-} */
 #Portfolio img:hover{
 	filter: sepia(100%);
 	opacity: .6;
@@ -118,8 +153,24 @@ label{
 	font-size: 50px;
 	font-family: 'Satisfy';
 }
-p{
+p,a{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin-top: 5px;
-}
 
+}
+/*cosas nazis de prueba que funcionaron >:V*/
+#Ubicacionb {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+div#ContactameLabel{
+	text-align: center;
+	margin-bottom: 50px;
+}
+p#UbicacionDetalles{
+
+}
+div#RedesSociales:hover{
+	background-color: red;
+	color: white;
+}
